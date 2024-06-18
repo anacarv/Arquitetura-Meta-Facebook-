@@ -27,6 +27,8 @@
 ## Tecnologias Utilizadas
 
 - MySQL/InnoDB: Utilizado inicialmente para armazenamento e replicação dos dados.
+- GraphQL: para gerenciar dados e queries de forma eficiente.
+- JavaScript/React: Para construção de interfaces de usuário.
 - MyRocks DB: Motor de armazenamento baseado em LSM tree desenvolvido para otimizar o desempenho.
 - Multifeed: Tecnologia utilizada para ranking no News Feed e Timeline.
 - Thrift: Ferramenta de comunicação entre serviços.

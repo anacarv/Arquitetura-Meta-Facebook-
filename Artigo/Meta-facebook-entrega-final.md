@@ -46,6 +46,13 @@
   - APIs de Associações: Operações para adicionar, modificar e deletar associações, além de consultas específicas para associações.
 - Cache: TAO atua como um cache write-through, armazenando agressivamente objetos e associações para reduzir a latência e a carga no banco de dados.
 
+## Frontend:
+- O frontend do Facebook utiliza principalmente JavaScript, com React sendo a biblioteca dominante para construção de interfaces de usuário. Além disso, o Facebook também adota GraphQL para gerenciar dados e queries de forma eficiente. A arquitetura é altamente modular, com componentes reutilizáveis sendo uma prática comum. Isso permite que novas funcionalidades sejam adicionadas e testadas de forma mais eficiente. Sendo projetado para funcionar em uma ampla gama de dispositivos e tamanhos de tela, garantindo uma experiência consistente do usuário em desktops, tablets e smartphones.
+
+- Devido à escala massiva do Facebook, a performance e a acessibilidade são prioridade. Isso inclui técnicas avançadas de otimização de carga inicial, renderização de lado cliente (client-side rendering), estratégias de caching para minimizar o tempo de resposta e melhorar a experiência do usuário, conformidade com padrões de acessibilidade, testes rigorosos e melhorias contínuas na usabilidade.
+
+- Como uma plataforma que lida com dados pessoais e transações sensíveis, a segurança é uma preocupação central no desenvolvimento. Medidas rigorosas são implementadas para proteger a integridade dos dados do usuário e prevenir vulnerabilidades.
+
 ## Histórico de Mudanças no Projeto
 - Uso Inicial do InnoDB: O motor de armazenamento InnoDB foi inicialmente utilizado, mas substituído pelo MyRocks DB para otimizar a performance.
   - Baseado em Log-Structured Merge (LSM) tree.
